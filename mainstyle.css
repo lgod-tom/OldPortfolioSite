@@ -1,0 +1,53 @@
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-image: url("bkgd.png");
+    background-color: #333333;
+    background-repeat: repeat;
+}
+
+nav ul li {
+    font-size: 16px;
+    display: inline;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    margin-top: -10px;
+    background-color: #E5E5E5;
+    opacity: 0.95;
+    text-align: center;
+    width: 960px;
+    margin-left: 15%;
+}
+
+header h1 {
+    padding-top: 15px;
+}
+
+li a {
+    color: #000;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.container {
+    background-color: #E5E5E5;
+    width: 960px;
+    margin-left: 15%;
+}
+
+.container p {
+    padding-right: 5px;
+}
+
+.container img {
+    height: 600px;
+    width: 600px;
+    padding-left: 180px;
+}
+
