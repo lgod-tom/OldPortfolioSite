@@ -1,6 +1,6 @@
 body {
     font-family: "Helvetica", "Arial", sans-serif;
-    background-image: url("bkgd.png");
+    background-image: url("./images/bkgd.png");
     background-color: #333333;
     background-repeat: repeat;
 }
@@ -18,7 +18,7 @@ header {
     opacity: 0.95;
     text-align: center;
     width: 960px;
-    margin-left: 15%;
+    margin: 0 auto;
 }
 
 header h1 {
@@ -38,16 +38,55 @@ li a:hover {
 .container {
     background-color: #E5E5E5;
     width: 960px;
-    margin-left: 15%;
+    margin: 0 auto;
 }
 
-.container p {
-    padding-right: 5px;
-}
-
-.container img {
+p img {
     height: 600px;
     width: 600px;
-    padding-left: 180px;
+    margin-left: 170px;
 }
+
+#nav {
+    position: fixed;
+}
+
+.firsthead {
+    position: relative;
+   
+    left: 140px;
+}
+
+.secondhead {
+   position: relative;
+    left: 325px; 
+    
+}
+
+.thirdhead {
+    left: 520px;
+    position: relative;
+}
+
+/* TESTING TESTING */
+
+.imgrow img {
+    padding-left: 50px;
+}
+
+.titles p {
+    display: inline-block;
+    font-size: 24px;
+}
+
+.descriptions p {
+    display: inline-block;
+    font-size: 14px;
+    width: 250px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+
+
 
